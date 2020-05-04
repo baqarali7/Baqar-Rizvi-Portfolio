@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Card from './components/entry/Card'
+import Projects from './components/Projects/Projects'
+import Resume from './components/Resume/Resume'
+import Navbar from './components/Navbar/Navbar';
+ 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  constructor () {
+    super();
+    this.state = {
+      route: 'entry'
+    }
+  }
+
+  OnRouteChange = (route) =>{
+    this.setState({route: route});
+  }
+
+  render(){
+
+    const {route} = this.state;
+
+    return (
+      <div className="App">
+        { route === 'entry' ?
+        <Card OnRouteChange = {this.OnRouteChange}/> :
+        route === 'projects' ?
+        <div>
+          <Navbar OnRouteChange = {this.OnRouteChange}/>
+          <Projects/>
+        </div> :
+        <div>
+          <Navbar OnRouteChange = {this.OnRouteChange}/>
+          <Resume/>
+        </div>
+        }
+      </div>
+    );
+  }
+
 }
 
 export default App;
