@@ -9,10 +9,6 @@ const Main= Styled.div`
     .text2{
         font-weight: 600;        
     }
-    .about {
-        max-width: 1500px;
-        height: 1250px;
-    }
 `
 
 function Resume() {
@@ -48,7 +44,7 @@ function Resume() {
                     <svg style={{fill:'currentcolor'}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 4.5v15c0 .85-.65 1.5-1.5 1.5H21V7.387l-9 6.463-9-6.463V21H1.5C.649 21 0 20.35 0 19.5v-15c0-.425.162-.8.431-1.068C.7 3.16 1.076 3 1.5 3H2l10 7.25L22 3h.5c.425 0 .8.162 1.069.432.27.268.431.643.431 1.068z"/></svg>
                 </a>
             </div>
-            <div className='about center bg-white br3 shadow-5'>
+            <div className='mw7 center bg-white br3 shadow-5'>
                 <p className='text black-70 f3 pt3 pl3 pr3 tl'> About </p>
                 <p className='text black-70 f6 pl3 pr3 pb3 tl'> I have started my Bachelor&#39;s studies of Computer Science in 2 0 1 6 form Indus University (Karachi) and after that I
                     learned about Software Development life cycle. I found myself more interested at the side of Machine Learning and Game Development  so I decided to learn more about how to
@@ -57,26 +53,24 @@ function Resume() {
                     JS and currently working on AI with Python frameworks like flask and django. I have also experience of writing web application using react js I have developed several applications using react js.
                     I have also experience of making web API's and deploing them on server.</p>
 
-                <hr className="mw7 bb bw1 b--black-10"/>
+                <hr className="mw4 bb bw1 b--black-10"/>
 
                 <p className='text black-70 f3 pl3 pr3 tl'> Skills </p>
 
                 <div className='tl'>
                     <div className = 'dib'>
-                        <p className='text2 black-70 f6 pl3 pr3'> Web Development (MERN) </p>
-                        <p className='text2 black-70 f6 pl3 pr3'> Django (Python Frameeork) </p>
-                        <p className='text2 black-70 f6 pl3 pr3'> Flask (Python Frameeork) </p>
-                        <p className='text2 black-70 f6 pl3 pr3'> Machine learning </p>
-                        <p className='text2 black-70 f6 pl3 pr3'> Data Science </p>
-                        <p className='text2 black-70 f6 pl3 pr3'> Game Development </p>
-                    </div>
-                    <div className = 'dib'>
-                        <p className='text black-70 f6 pl3 pr3'> I have worked on several projects related to full stack web development using react js you can check out projects in my portfolio. </p>
-                        <p className='text black-70 f6 pl3 pr3'> Worked on several projects of Django you can check out my git account repos for reference. </p>
-                        <p className='text black-70 f6 pl3 pr3'> Flask is a great framework adn I have made several ML apis and microframeworks with it. You can check out my protfolio for reference. </p>
-                        <p className='text black-70 f6 pl3 pr3'> I have worked on many projects related to machine learing in which I have trained CNN and ANN (neural net) for the regression and classification problems. </p>
-                        <p className='text black-70 f6 pl3 pr3'> Data Science is my major skill I have worked on data cleaning and data genration process for machine learning neural nets. I have also worked on data scraping from webs. </p>
-                        <p className='text black-70 f6 pl3 pr3'> Game development is also my major skill. I have developed several games with unity 3d in which I have worked on complete pipeline of game development including animations and sound design. </p>
+                        <p className='text black-70 f4 pl3 pr3'>Full Stack Web Development (MERN) </p>
+                        <p className='text black-70 f6 pl3 pr3'> Worked on several projects of <b><i>Full Stack Development using Front-end of React-js Back-end of Node and Express and Postgres SQL for Database.</i></b> You can check out my git account repos for reference. </p>
+                        <p className='text black-70 f4 pl3 pr3'> Django (Python Frameeork) </p>
+                        <p className='text black-70 f6 pl3 pr3'> Worked on several projects of <b><i>Django</i></b> you can check out my git account repos for reference. </p>
+                        <p className='text black-70 f4 pl3 pr3'> Flask (Python Frameeork) </p>
+                        <p className='text black-70 f6 pl3 pr3'> Flask is a great framework and <b><i>I have made several ML apis and microframeworks</i></b> with it. You can check out my protfolio for reference. </p>
+                        <p className='text black-70 f4 pl3 pr3'> Machine learning </p>
+                        <p className='text black-70 f6 pl3 pr3'> I have worked on many projects related to machine learing in which <b><i>I have trained CNN and ANN (neural net) for the regression and classification problems.</i></b></p>
+                        <p className='text black-70 f4 pl3 pr3'> Data Science </p>
+                        <p className='text black-70 f6 pl3 pr3'> Data Science is my major skill <b><i>I have worked on data cleaning and data genration process for machine learning neural nets.</i></b> I have also worked on data scraping from webs. </p>
+                        <p className='text black-70 f4 pl3 pr3'> Game Development </p>
+                        <p className='text black-70 f6 pl3 pr3'> Game development is also my major skill. I have developed several games with unity 3d in which <b><i>I have worked on complete pipeline of game development including animations and sound design.</i></b></p>
                     </div>
                 </div>
 
@@ -84,15 +78,13 @@ function Resume() {
 
                 <div className='tl'>
                     <div className = 'dib'>
-                        <p className='text2 black-70 f6 pl3 pr3'> Matriculation </p>
-                        <p className='text2 black-70 f6 pl3 pr3'> Intermediate </p>
-                        <p className='text2 black-70 f6 pl3 pr3'> Higher Education </p>
-                        <p className='text2 black-70 f6 pl3 pr3'> Certification </p>
-                    </div>
-                    <div className = 'dib'>
+                        <p className='text black-70 f4 pl3 pr3'> Matriculation </p>
                         <p className='text black-70 f6 pl3 pr3'> St Laurent’s School | Karachi | Computer Science 2011 - 2013 </p>
+                        <p className='text black-70 f4 pl3 pr3'> Intermediate </p>
                         <p className='text black-70 f6 pl3 pr3'> Gulzar e Hijri College | Karachi | Pre-Engineering 2013 - 2015 </p>
+                        <p className='text black-70 f4 pl3 pr3'> Higher Education </p>
                         <p className='text black-70 f6 pl3 pr3'> Indus University | Karachi | Bachelor's of Science in Computer Science 2016 - 2020 </p>
+                        <p className='text black-70 f4 pl3 pr3'> Certification </p>
                         <p className='text black-70 f6 pl3 pr3'> PIAIC (President Initiative for Artificial Intelligence and Computing) | Karachi | Artifical Intelligence Certification(2019-2020)</p>
                     </div>
                 </div>
@@ -143,7 +135,7 @@ function Resume() {
                 </div>
                 <hr className="mw7 mt4 bb bw1 b--black-10"/>
 
-                <div className='measure center f6 black-70'>
+                <div className='pb2 measure center f6 black-70'>
                 &copy; Baqar Rizvi | Made with ❤
                 </div>
             </div>
