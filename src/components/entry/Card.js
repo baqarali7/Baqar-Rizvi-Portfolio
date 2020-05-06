@@ -3,6 +3,9 @@ import Styled from 'styled-components'
 import ProPic from './pro.jpg'
 
 const SubDiv = Styled.div`
+    .pointer{
+        cursor: pointer;
+    }
     .article {
         width: 1000px;
         height: 540px;
@@ -60,9 +63,9 @@ const Card = ({OnRouteChange}) => {
             </div>
 
             <div>
-                <p onClick = {() => OnRouteChange('entry')} className="ma2 f6 link dim ba br3 ph3 pv2 mb2 dib gray">Profile</p>
-                <p onClick = {() => OnRouteChange('projects')} className="ma2 f6 link dim ba br3 ph3 pv2 mb2 dib gray">Projects</p>
-                <p onClick = {() => OnRouteChange('resume')} className="ma2 f6 link dim ba br3 ph3 pv2 mb2 dib gray">Resume</p>
+                <p onClick = {() => OnRouteChange('entry')} className="ma2 f6 link dim ba br3 ph3 pv2 mb2 dib gray pointer">Profile</p>
+                <p onClick = {() => OnRouteChange('projects')} className="ma2 f6 link dim ba br3 ph3 pv2 mb2 dib gray pointer">Projects</p>
+                <p onClick = {() => OnRouteChange('resume')} className="ma2 f6 link dim ba br3 ph3 pv2 mb2 dib gray pointer">Resume</p>
                 <hr className="mw3 bb bw1 b--black-10"/>
             </div>
             <div className='measure center f6 black-70'>

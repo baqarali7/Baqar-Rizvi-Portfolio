@@ -17,7 +17,7 @@ function Resume() {
         <div>
             <img src={ProPic} className="br-100 h4 w4 mt3" title="front" alt='front'/>
             <p className='text tc f3 black-70'>Baqar Rizvi</p>
-            <p className='text black-70'>Full Stack Developer (MERN) | Machine Learning | ML Web Freamworks (Flask, Django) | Game Developer</p>
+            <p className='text black-70'>Full Stack Developer (MERN) | Machine Learning | ML Web Frameworks (Flask, Django) | Game Developer</p>
             <div className="pv2 ph3 ph5-ns tc">
                 <a className="link dim gray dib h2 w2 br-100 mr3 " href="https://www.facebook.com/baqarali.ali/" title="Facebook" target="_newtab">
                     <svg data-icon="facebook" viewBox="0 0 32 32" style={{fill:'currentcolor'}}>
@@ -97,9 +97,9 @@ function Resume() {
                         <p className='text black-70 f4 pl3 pr3'> Machine learning and Full Stack Web Developer (MERN) (Present)<br></br> Tecknoloje Software Solution </p>
                     </div>
                     <div className = ''>
-                        <p className='text black-70 f6 pl3 pr3'>I have worked on many machine learing problems and worked on the training of complex CNN(Convolutional Neural Network) and ANN(Artifical Neural Network) 
-                                                                also worked on data geathering and data cleaning processes.
-                                                                I made saveral projects of ML listed in my portfolio. 
+                        <p className='text black-70 f6 pl3 pr3'>I have worked on many machine learning problems and worked on the training of complex CNN(Convolutional Neural Network) and ANN(Artifical Neural Network) 
+                                                                also worked on data gathering and data cleaning processes.
+                                                                I made several projects of ML listed in my portfolio. 
                                                                 I have also made several machine learning API's.</p>
                     </div>
 

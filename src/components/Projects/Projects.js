@@ -107,6 +107,7 @@ function Projects() {
                 </p>
 
             <div className="pv4 ph3 ph5-ns tc">
+            <a className="pointer ma2 f6 link dim ba br3 ph3 pv2 mb2 dib gray" href='https://learning-management-solution.web.app/' target="_newtab">Preview</a>
                 <a className="pointer ma2 f6 link dim ba br3 ph3 pv2 mb2 dib gray" href='https://github.com/baqarali7/LearningManagment' target="_newtab">Source Code</a>
             </div>
         </article>
